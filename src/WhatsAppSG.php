@@ -22,9 +22,9 @@
  */
 namespace yhondev\whatsapphelper;
 
-use yhondev\whatsapphelper\Traits\FormatPhoneTrait;
-use yhondev\whatsapphelper\Traits\GetSetTrait;
-use yhondev\whatsapphelper\Traits\GlobalTrait;
+use Traits\FormatPhoneTrait;
+use Traits\GetSetTrait;
+use Traits\GlobalTrait;
 use Exception;
 
 class WhatsAppSG
