@@ -2,12 +2,12 @@
     "name": "yhondev/whatsapphelper",
     "description": "\"whatsapp notification\"",
     "type": "library",
-    "license": "MT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Yusuf"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "require": {}
 }
