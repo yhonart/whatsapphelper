@@ -23,13 +23,11 @@
 namespace WhatsappHelper;
 
 use WhatsappHelper\Traits\FormatPhoneTrait;
-use WhatsappHelper\Traits\GetSetTrait;
-use WhatsappHelper\Traits\GlobalTrait;
 use Exception;
 
 class WhatsAppSG
 {
-    use GetSetTrait, FormatPhoneTrait, GlobalTrait;
+    use FormatPhoneTrait;
 
     /**
      * __construct
