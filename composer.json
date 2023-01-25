@@ -2,6 +2,7 @@
     "name": "yhondev/whatsapphelper",
     "description": "\"whatsapp notification\"",
     "type": "library",
+    "prefer-stable": true,
     "license": "MIT",
     "authors": [
         {
@@ -14,5 +15,10 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.13",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "time": "2023-01-25 12:55:06",
+    "version": "1.0.0"
 }
