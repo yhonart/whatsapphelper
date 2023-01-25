@@ -8,6 +8,11 @@
             "name": "Yusuf"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "yhondev\\whatsapphelper\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
