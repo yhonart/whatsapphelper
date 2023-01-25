@@ -1,0 +1,13 @@
+{
+    "name": "yhondev/whatsapphelper",
+    "description": "\"whatsapp notification\"",
+    "type": "library",
+    "license": "MT",
+    "authors": [
+        {
+            "name": "Yusuf"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
