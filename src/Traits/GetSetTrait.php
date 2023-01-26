@@ -6,27 +6,18 @@ trait GetSetTrait
 {
     /**
      * @var string
-     * @author yusuf
      */
     protected $baseUrl      = 'http://127.0.0.1';
 
     /**
      * @var int
-     * @author yusuf
      */
     protected $port         = 6789;
 
     /**
      * @var int
-     * @author yusuf
      */
     protected $senderPhone;
-
-    /**
-     * @var string
-     * @author yusuf
-     */
-    protected $message;
 
     /**
      * Set the value of baseUrl

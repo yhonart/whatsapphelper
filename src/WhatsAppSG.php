@@ -40,9 +40,9 @@ class WhatsAppSG
      */
     private $recepient;
     /**
-     * @var int[]
+     * @var string
      */
-    private $message;
+    protected $message;
 
     public function __construct(int $recepient = null, string $message = null)
     {
