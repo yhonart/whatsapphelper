@@ -43,11 +43,11 @@ class WhatsAppSG
     private $recepient;
 
     /**
-     * @var int
+     * @var string
      */
     private $message;
 
-    public function __construct(int $recepient, int $message)
+    public function __construct(int $recepient = null, string $message = null)
     {
         $this->recepient    = $recepient;
         $this->message      = $message;
