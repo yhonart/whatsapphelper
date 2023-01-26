@@ -23,12 +23,6 @@ trait GetSetTrait
     protected $senderPhone;
 
     /**
-     * @var int
-     * @author yusuf
-     */
-    protected  $recepient;
-
-    /**
      * @var string
      * @author yusuf
      */
