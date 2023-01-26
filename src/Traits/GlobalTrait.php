@@ -37,8 +37,7 @@ trait GlobalTrait
      * @param  mixed $endpoint
      * @param  array $params
      *
-     * @return void            
-     * @author yusuf
+     * @return void
      * @throws Exception
      */
     public function _exce($endpoint, $params = [])

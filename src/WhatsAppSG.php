@@ -42,7 +42,7 @@ class WhatsAppSG
     /**
      * @var string
      */
-    protected $message;
+    private $message;
 
     public function __construct(int $recepient = null, string $message = null)
     {
