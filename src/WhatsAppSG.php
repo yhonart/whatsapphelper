@@ -25,7 +25,9 @@ namespace yhondev\whatsapphelper;
 use yhondev\whatsapphelper\Traits\GetSetTrait;
 use yhondev\whatsapphelper\Traits\FormatPhoneTrait;
 use yhondev\whatsapphelper\Traits\GlobalTrait;
+use Illuminate\Foundation\ProviderRepository;
 use Exception;
+
 class WhatsAppSG
 {
     use GetSetTrait, FormatPhoneTrait, GlobalTrait;
@@ -45,6 +47,7 @@ class WhatsAppSG
      * @var string
      */
     private $message;
+    
     /**
      * Protected constructor. Use a factory method to obtain an instance.
      *
@@ -62,7 +65,6 @@ class WhatsAppSG
      * SendText
      *
      * @return this 
-     * @author yusuf
      * @throws Exception
      */
     public function SendText()
