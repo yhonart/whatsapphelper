@@ -14,10 +14,10 @@
             "yhondev\\whatsapphelper\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "giggsey/libphonenumber-for-php": "^8.13",
-        "guzzlehttp/guzzle": "^7.5"
+        "guzzlehttp/guzzle": "^7.5.0"
     },
     "time": "2023-01-25 12:55:06",
     "version": "1.0.0"
