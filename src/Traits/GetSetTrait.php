@@ -51,6 +51,15 @@ trait GetSetTrait
         $this->recepient = $recepient;
         return $this;
     }
+    /**
+     * @var int
+     */
+    protected  $recepient;
+
+    /**
+     * @var string
+     */
+    protected $message;
 
     /**
      * Set the value of message
