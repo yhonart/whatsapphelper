@@ -42,9 +42,9 @@ class WhatsAppSG
     /**
      * @var string
      */
-    private $message;
+    protected $message;
 
-    public function __construct(int $recepient = null, string $message = null)
+    public function __construct(int $recepient = null, string $message)
     {
         $this->recepient    = $recepient;
         $this->message      = $message;
