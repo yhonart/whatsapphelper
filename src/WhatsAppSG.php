@@ -35,6 +35,15 @@ class WhatsAppSG
      *
      * @return parent::__construct()
      */
+    /**
+     * @var int[]
+     */
+    private $recepient;
+    /**
+     * @var int[]
+     */
+    private $message;
+
     public function __construct(int $recepient = null, string $message = null)
     {
         $this->recepient    = $recepient;
