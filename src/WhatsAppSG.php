@@ -44,7 +44,7 @@ class WhatsAppSG
      */
     private $message;
 
-    public function __construct()
+    public function __construct(int $recepient, string $message)
     {
         $this->recepient    = $recepient;
         $this->message      = $message;
