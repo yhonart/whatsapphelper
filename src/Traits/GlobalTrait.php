@@ -21,7 +21,7 @@
  * 
  */
 
-namespace WhatsappHelper\Traits;
+namespace yhondev\whatsapphelper\Traits;
 
 use Exception;
 use GuzzleHttp\Client;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Whatsapphelper\Traits;
+namespace yhondev\whatsapphelper\Traits;
 
 trait GetSetTrait
 {
