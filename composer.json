@@ -12,10 +12,7 @@
     "autoload": {
         "psr-4": {
             "yhondev\\whatsapphelper\\": "src/"
-        },
-        "classmap": [
-            "Traits/"
-        ]
+        }
     },
     "minimum-stability": "dev",
     "require": {
