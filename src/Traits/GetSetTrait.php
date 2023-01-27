@@ -42,6 +42,11 @@ trait GetSetTrait
     }
 
     /**
+     * @var int
+     */
+    protected  $recepient;
+
+    /**
      * Set the value of recepient
      * @param   int  $recepient  
      * @return  self
@@ -50,11 +55,7 @@ trait GetSetTrait
     {
         $this->recepient = $recepient;
         return $this;
-    }
-    /**
-     * @var int
-     */
-    protected  $recepient;
+    }    
 
     /**
      * @var string

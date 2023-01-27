@@ -32,18 +32,6 @@ class WhatsAppSG
     use GetSetTrait, FormatPhoneTrait, GlobalTrait;
 
     /**
-     * __construct
-     *
-     * @return parent::__construct()
-     */    
-
-    public function __construct(int $recepient, string $message)
-    {
-        $this->recepient    = $recepient;
-        $this->message      = $message;
-    }
-
-    /**
      * SendText
      *
      * @return this 
